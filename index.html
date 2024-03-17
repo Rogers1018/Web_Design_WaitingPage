@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="title.png">
+    <meta charset="UTF-8">
+    <title>Op.gg當機等候網頁</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            position: relative;
+            background-image: url(background.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .centered-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+        .centered-content img {
+            margin-bottom: 20px;
+            margin-left: 100px;
+        }
+
+        .bottom-content {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            width: 100%;
+            color: white;
+        }
+        .bottom-content img {
+            width: 45px;
+            height: auto;
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<body>
+        <div class="centered-content">
+            <img src="main.png" alt="普羅" title="吉祥物" />
+            <p>現在網站負載人數過多，請稍後再試</p>
+        </div>
+
+        <div class="bottom-content">
+            <p>您可以先到以下官方頁面查看最新動態，稍後再嘗試進入網站</p>
+
+            <a href="https://www.leagueoflegends.com/zh-tw/?_gl=1*kng7pj*_ga*MjA5MzEwNzI4My4xNzEwNjU4MTIx*_ga_FXBJE5DEDD*MTcxMDY1ODEyMS4xLjEuMTcxMDY2MjkzNS4wLjAuMA.." target="_blank">
+                <img src="link/lol.png" alt="link" title="官網"/>
+            </a>
+
+            <a href="https://www.facebook.com/leagueoflegends/?locale=zh_TW" target="_blank">
+                <img src="link/fb.png" alt="link" title="fb"/>
+            </a>
+
+            <a href="https://www.instagram.com/leagueoflegends/" target="_blank">
+                <img src="link/ig.png" alt="link" title="ig"/>
+            </a>
+
+            <a href="https://twitter.com/LeagueOfLegends" target="_blank">
+                <img src="link/x.png" alt="link" title="x"/>
+            </a>
+        </div>
+</body>
+</html>
